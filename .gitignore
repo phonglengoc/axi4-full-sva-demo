@@ -1,0 +1,28 @@
+# Simulation build & waveform artifacts
+sim/work_vcs/
+sim/xcelium_work/
+sim/spyglass_work/
+sim/csrc/
+sim/logs/
+sim/compile.f
+sim/DVEfiles/
+sim/verdiLog/
+sim/urgReport/
+sim/urg_*
+
+# Waveform & EDA temporary files
+*.fsdb
+*.vdb/
+*.shm/
+*.vcd
+*.log
+*.key
+novas.rc
+novas.conf
+.fsm*.xml
+.simvision*
+*.daidir/
+*_simv
+
+# Reference specification PDFs (never commit vendor-copyrighted specs)
+*.pdf
